@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 from OSC import OSCServer
-import sys
 from time import sleep
 
 server = OSCServer( ("localhost", 7110) )
